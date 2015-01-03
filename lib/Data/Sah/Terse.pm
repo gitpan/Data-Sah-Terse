@@ -1,7 +1,7 @@
 package Data::Sah::Terse;
 
-our $DATE = '2015-01-02'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -78,7 +78,7 @@ Data::Sah::Terse - Make human-readable terse representation of Sah schema
 
 =head1 VERSION
 
-This document describes version 0.01 of Data::Sah::Terse (from Perl distribution Data-Sah-Terse), released on 2015-01-02.
+This document describes version 0.02 of Data::Sah::Terse (from Perl distribution Data-Sah-Terse), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -109,15 +109,6 @@ Options:
 =item * schema_is_normalized => bool
 
 =back
-
-=head1 TODO
-
-Provide more options, e.g. allow showing some clauses (.e.g "int>10").
-
-Show hash as "hash[str=>array]" or just "hash[array]"? Consider that we will
-allow subschemas in the future, e.g. "hash[filename=>filespec]".
-
-Handle '!of' (of.op=not), 'of&' (of.op=and), 'of!' (of.op=or).
 
 =head1 SEE ALSO
 
